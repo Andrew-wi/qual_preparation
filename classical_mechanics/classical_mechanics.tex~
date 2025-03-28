@@ -1,0 +1,11 @@
+\documentclass{article}
+
+\usepackage{amsmath}
+
+\begin{document}
+
+\section{Brachistochrone Problem}
+
+Here, We will describe the brachistochrone problem and how to solve it. We will use \textit{Introduction to Classical Mechanics} by Morin as our reference. The problem is referenced from the Princeton 1998 qualifying exam.
+
+\end{document}
