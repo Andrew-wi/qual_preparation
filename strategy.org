@@ -1,0 +1,91 @@
+#+TITLE: Strategy for Qualifying Exams Preparation
+#+DATE: 2025-03-28
+#+EMAIL: stone.projectile@gmail.com
+#+FILETAGS: :learning:qualifying_exams:physics:mathematics:
+
+* Getting Our Bearings
+
+The first thing to do when planning a strategy for /preparing/ for the qualifying exams is to understand what will be /in/ the qualifying exams (QE). At Caltech, there will be 2 written qualifying exams:
+
+1. Written Exam I: Classical Mechanics & Electromagnetism.
+2. Written Exam II: Quantum Mechanics, Statistical Mechanics, and Thermodynamics.
+
+Knowing the topics that will be on the exams, the next step is to figure out exactly what level and nature of problem will be on the exams in each of the five topics.
+
+This data is obtained by roughly sampling from a variety of qualifying exams across schools and years. I sampled the written exams from 2012, 2015, and 2021 from Princeton, Yale, and MIT. I did not attempt the problems, but I was able to roughly figure out the nature of the problems so I have a sense for what level of problems will be on the QEs. They will be naturally exactly those that will be solvable by a well-prepared undergraduate, or a graduate student who has taken the introductory courses.
+
+* The Schedule of Qualifying Exams
+
+Knowing what will be in the exams, we should now try to understand the amount of time we have to pass the quals, and how many attempts we have.
+
+From the "Requirements for PhD Candidacy" webpage, Caltech physics graduate students must attempt the quals by the end of their first year, and must pass them by the end of their second year. A maximum of three attempts are allowed. The test is administered twice per year, in October and in July.
+
+Therefore, the average graduate student is most likely to attempt the exam in July of their first year, after taking preparatory courses. If they do not pass, they may re-attempt the exam in October, and a third time in July if required.
+
+* Courses at Caltech
+
+Additionally, we would like to know what is the nature of the courses that first-year graduate students take at Caltech to prepare for said qualifying exams, so we have a sense for the level of preparation required for these courses.
+
+Therefore, we shouhld next figure out what sorts of courses at Caltech I would need to take to prepare for the qualifying exams. There are four main qual-related courses, each roughly 2-3 quarters long (~1 year):
+
+1. Physics 106abc (Fall, Winter, Spring): classical physics. Covers classical mechanics and electromagnetism.
+2. Physics 125abc (Fall, Winter, Spring): quantum mechanics.
+3. Physics 127ab (Fall, Winter): statistical mechanics.p
+4. Physics 201 (Spring): PhD candidacy fitness (drills & basic review of all five topics of the quals, plus a smattering of other topics such as optics and general physics).
+
+I note that the 100-level classes are mixed undergraduate-graduate courses.
+
+There is also a requirement of taking two semesters of the Physics 242ab course, for the Fall & Winter term of the first year. Physics 242ab is a "Physics Seminar" course, intended to be an "introduction to independent research". I am not sure what it entails. No technical physics topics are listed. It appears to have one meeting per week, and student presentations. It appears to be some sort of directed reading course. I can find no course website online.
+
+A reasonably sane strategy is, therefore, upon beginning the first year: take all the above-listed courses in Fall, Winter and Spring of the first year; then, in July of the first year, attempt the qualifying exams. If those are not passed, you may study throughout the summer to attempt the quals again in October, and for a third time in July after more preparation if necessary. The structure just makes sense; you have three or four courses each term if done in this way, all of which are related to the qualifying exams, or finding a research area (which is related to finding an advisor).
+
+My rough assessment, from scanning the early problem sets (indeed, attempting a couple problems), is that these courses are no more difficult and in fact cover much of the material from the same upper-undergraduate/introductory graduate courses at Harvard and MIT. In particular, most are open to enrollment by undergraduate students.
+
+* Recruiting an Advisor
+
+Another major consideration is the recruitment of an advisor. From the website:
+
+"Some students join a research group and officially declare their research adviser [sic] by the winter term of their first year, while others declare in the spring term of their first year. The option expects you to declare a research adviser [sic] by some point during your second year."
+
+We need not elaborate further. Thus, one should consider actively exploring research advisors throughout the first year and perhaps into the second year.
+
+* Other Courses and Considerations
+
+There is an Advanced Physics Requirement which must be satisfied by the end of the second year: six graduate-level physics (or related) courses in at least three of four areas of physics:
+
+1. Physics of elementary particles and fields (Nuclear Physics, High Energy Physics, String Theory)
+2. Quantum Information and Matter (Atomic/Molecular/Optical Physics, Condensed-Matter Physics, Quantum Information)
+3. Physics of the Universe (Gravitational Physics, Astrophysics, Cosmology)
+4. Interdisciplinary Physics (e.g. Biophysics, Applied Physics, Chemical Physics, Mathematical Physics, Experimental Physics)
+
+This should therefore be taken into consideration when preparing for the qualifying exams, but if you are able to complete the qualifying exams by the end of the first year (in July, perhaps), then fulfilling the Advanced Physics Requirement should be straightforward: simply take classes you are interested in, in at least three of the four above areas (the website lists various courses in each of the areas).
+
+* What is to be done?
+
+Knowing all the above, we now articulate a rough strategy between now (March 28, 2025) and the taking of the qualifying exams (July 2026 up to July 2027 if required).
+
+1. March 2025 -- April 2025: MIT OCW differential equations and multivariate calculus. We just need to know these.
+2. April 2025 -- July 2025: review the material of classical mechanics & electromagnetism (Physics 106abc).
+3. July 2025 -- September 2025: reivew the material of quantum mechanics & statistical physics (Physics 125abc, 127ab). Move to LA in late September.
+4. September 2025: begin coursework of Physics 106a, 125a, 127a, 242a. Proceed as articulated in the above section "Courses at Caltech".
+5. July 2026: make a first attempt at the written qualifying exams.
+
+In case these are not passed, we will regroup in July, prepare during the summer from July -- October 2026, and attempt the qualifying exams again in October 2026.
+
+We should keep in the back of our mind that we will eventually need to find an advisor in the second year at the latest, but almost all of our focus should go to reviewing the material that will be queried on the qualifying exams.
+
+This concludes our strategy.
+
+* Resources
+
+1. Main requirements: https://pma.caltech.edu/research-and-academics/physics/physics-graduate-studies/requirements-for-a-doctorate-in-physics.
+2. Sample Exams: https://physrefs.mit.edu/general-exam-preparation/, https://physics.yale.edu/academics/graduate-studies/graduate-student-handbook/qualifying-exam-past-exams, https://phy.princeton.edu/academics/graduate-program/degree-requirements/preliminary-exams.
+3. Caltech Physics Course Catalog: https://pma.caltech.edu/research-and-academics/physics/physics-course-schedule/physics-course-schedule-and-websites-2024-2025 and https://catalog.caltech.edu/current/2024-25/department/Ph/.
+4. Caltech Physics Courses website samples, including for Physics 106, 125, and 127: http://pmaweb.caltech.edu/GSR/physicscourses.html.
+5. Caltech guide to first year physics graduate students: https://pma.caltech.edu/research-and-academics/physics/physics-graduate-studies/resources-for-current-students/guide-for-first-year-physics-grads.
+6. Physics 106abc: https://labcit.ligo.caltech.edu/~ajw/ph106/ and https://sites.astro.caltech.edu/~golwala/ph106bc/.
+7. Physics 125abc: https://sites.astro.caltech.edu/~golwala/ph125ab/ and https://www.preposterousuniverse.com/activities/physics125c/.
+8. Physics 127a: https://www.its.caltech.edu/~motrunch/Teaching/Phy127a_Fall10/ and http://crossgroup.caltech.edu/Ph127/a/index.html.
+9. Physics 127b: https://www.its.caltech.edu/~motrunch/Teaching/Phy127b_Winter10/ and http://crossgroup.caltech.edu/Ph127/b/index.html.
+10. Physics 201: could not find websites.
+11. Physics 242ab: could not find websites.

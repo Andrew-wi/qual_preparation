@@ -1,0 +1,11 @@
+\ProvidesFile{technical_notes}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{graphics}
+\usepackage{hyperref}
+\usepackage{makeidx}
+
+\newtheorem{definition}{Definition}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{axiom}{Theorem}[section]

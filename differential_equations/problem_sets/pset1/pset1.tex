@@ -1,0 +1,108 @@
+\documentclass{article}
+
+
+\usepackage{technical_notes}
+
+\begin{document}
+
+\section{Part I}
+\label{sec:parti}
+
+\subsection{Problem 3: Linear Models}
+
+\subsubsection{EP 1.5, Problem 33}
+
+We write $y(t) = $ mass fo salt in the vat at time $t$. We wish to express $y(t)$ as a function of $t$; it will be a differential equation, ince it will involve a rate of change being the rate of change of kilograms of salt in the vat.
+
+Note that our initial condition is $y(0) = 100$ kg of salt. Therefore, we seek to express this problem as an initial value problem, and find a general then particular solution.
+
+The amount of salt exiting the vat at any time $t$ will be:
+
+\begin{align}
+  \label{eq:saltexitingvat}
+  \dot{y}(t) &= -0.005 y(t) \\
+  \Rightarrow \dot{y} &= -0.005 y,
+\end{align}
+
+which is a natural growth equation. So this has a solution
+
+\begin{equation}
+  \label{eq:solutionsaltgrowth}
+  y(t) = Ce^{kt}
+\end{equation}
+
+with $k = -0.005$ and $C = 100$. Therefore,
+
+\begin{equation}
+  y(t) = 100 e^{-0.005t}
+\end{equation}
+
+So we see that
+
+\begin{align}
+  y(t) = 10 &= 100 e^{-0.005 t} \\
+  \Rightarrow \ln(0.1) &= -0.005 t \\
+  \frac{\ln(0.1)}{-0.005} &= t
+\end{align}
+
+which is approximatesly 7.65 minutes.
+
+\subsubsection{EP 1.5, Problem 45}
+
+First, we write the rate of change of the pollutant in liters per month:
+
+\begin{align}
+  \frac{dx}{dt} &= + 10 \frac{L}{m^{3}} \cdot 2 \times 10^5 \frac{m^3}{\mathrm{month}} - \frac{x(t)}{2 \times 10^6 m^3} \cdot 2 \times 10^5 \frac{m^3}{\mathrm{month}} \\
+  \implies \frac{dx}{dt} &= 2 \times 10^6 - \frac{x}{10} \text{ in Liters/month.}
+\end{align}
+
+Now, we recognize this as a first-order linear ordinary differential equation:
+
+\begin{equation}
+\label{eq:firstOrderODE:problem45}
+ \dot{x} + kx = Q
+\end{equation}
+
+with $P(t) = k, \; Q(t) = Q$. Therefore, following the method of EP 1.5, we calculate
+\begin{equation}
+\label{eq:5}
+  e^{\int P(t) \; dt} = e^{\int k \;  dt} = e^{kt}.
+\end{equation}
+
+Notice now that
+\begin{equation}
+\label{eq:1}
+  D_t \left[ e^{kt} x(t) \right] = e^{kt} \cdot \left[ \text{LHS of } (\ref{eq:firstOrderODE:problem45}) \right]
+\end{equation}
+
+Therefore:
+\begin{align}
+\label{eq:3}
+  D_t \left[ e^{kt} x(t)  \right] &= e^{kt} Q \\
+  e^{kt} x(t) &= \int e^{kt} Q = \frac{Q}{k}e^{kt} + C \\
+  \implies x(t) &= \frac{Q}{k} + Ce^{-kt}.
+\end{align}
+
+Now, with
+\begin{displaymath}
+  k = \frac{1}{10}, \quad Q = 2 \times 10^6,
+\end{displaymath}
+
+and the initial conditions given (that is, that $x(0) = 0$), then we have that 
+\begin{align}
+\label{eq:6}
+  x(0) = \frac{Q}{k} + C &= 0 \\
+  \implies C &= - \frac{Q}{k} \\
+  \implies x(t) = 20 (1 - e^{-\frac{1}{10} t}) \text{ million liters}
+\end{align}
+
+For a concentration of $5 \frac{L}{m^3}$, then we get 
+\begin{align}
+\label{eq:7}
+  5 \frac{L}{m^3} \cdot 2 \times 10^6 = 10 \text{ million liters} \Rightarrow \frac{1}{2} &= 1 - e^{-\frac{1}{10}t} \\
+  t &= - 10 \ln (0.5) \approx 6.9 \text{ months}.
+\end{align}
+
+
+
+\end{document}

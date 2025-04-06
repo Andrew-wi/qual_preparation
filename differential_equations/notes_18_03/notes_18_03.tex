@@ -1,0 +1,95 @@
+\documentclass{article}
+
+\usepackage{technical_notes}
+
+\makeindex
+
+\begin{document}
+
+\title{Notes for MIT 18.03: Differential Equations}
+\author{Andrew Winnicki}
+\date{Spring 2025}
+\maketitle
+
+\section{Recitation 1 \& Lecture 1: Direction Fields, Existence \& Uniqueness of Solutions}
+
+\subsection{Readings}
+
+Edwards \& Penney, Chapters 1.1, 1.2, 1.3, and 1.4.
+
+\subsection{Lecture \& Reading Notes}
+
+\subsubsection{Differential Equations \& Separability}
+
+In the the first part of the course, we will only study ODEs involving the first derivative:
+
+\begin{equation}
+  \label{eq:firstorderode}
+  y' = F(x, y)
+\end{equation}
+
+Example:
+\begin{equation}
+  y' = 2x,
+\end{equation}
+
+which has solution $x^2 + C$. Such a solution is called the \textbf{general solution}\index{general solution}.
+
+Another example \textit{(memorize this!)}:
+
+\begin{equation}
+  \label{eq:naturalgrowth}
+  y' = kx
+\end{equation}
+
+With general solution $y = Ce^{kx}$. This will be a central example in the course; in fact, a reasonable defintion of the function $e^x$ is that it is the solution to the differential equation $y' = y$ such that $y(1) = 0$.
+
+Separation of variables\index{separation of variables} will also be important. The protocol is:
+\begin{enumerate}
+\item Pull all variables to either side.
+\item Integrate.
+\item Amalgamate all constants and solve (if possible) for $y$ in terms of $x$.
+\end{enumerate}
+
+Most real-life equations aren't solvable, though. So, we often resort to graphical/numerical methods.
+
+\subsubsection{Graphical Methods}
+
+The differential equation $y' = F(x, y)$ defines a slope at every point in the plane. This is a \textbf{direction field}\index{direction field} or \textbf{slope field}\index{slope field}.
+
+A \textbf{solution}\index{solution} of a differential equation is a function whose graph has the given slope at every point it goes through.
+
+To specify a particular solution of an ODE you must give an \textbf{initial condition}\index{initial condition}: when $x$ takes on a certain value, $y$ takes on a specified value.
+
+\begin{Theorem}{Existence and Uniqueness Theorem for ODEs}{testtheorem}
+   Suppose that both the function $f(x, y)$ and $D_y f(x, y)$ are continuous on some rectangle $R$ in the $xy$-plane containing the point $(a, b)$ in its interior. Then for some open interval $I$ containing the point $a$, the IVP
+  \begin{equation}
+    \label{eq:ivp_existence_uniqueness_theorem}
+    \frac{dy}{dx} = f(x, y), \quad y(a) = b
+  \end{equation}
+  has one and only one solution defined on the interval $I$.
+\end{Theorem}
+
+Direction fields are used to visualize the qualitative behavior of solutions to differential equations, and this is what we often want to know.
+
+\section{Lecture 2: Numerical Methods}
+
+\subsection{Readings}
+
+Edwards \& Penney 6.1, 6.2.
+
+\subsection{Lecture \& Reading Notes}
+
+The study of differential equations has three parts.
+
+\begin{enumerate}
+\item Analytic, exact, symbolic methods.
+\item Quantitative methods (direction fields, isoclines, etc).
+\item Numerical methods.
+\end{enumerate}
+
+We focus on numerical methods today.
+
+\printindex
+
+\end{document}
